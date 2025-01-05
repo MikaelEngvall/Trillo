@@ -101,10 +101,17 @@ body {
   flex: 1;
 }
 
+.detail-container {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+
 .detail {
   font-size: 1.4rem;
-  display: grid;
-  grid-template-columns: 1fr;
+  display: flex;
+  flex-direction: column;
   gap: 2rem;
   padding: 4.5rem;
   background-color: var(--color-grey-light-1);
@@ -142,10 +149,6 @@ body {
 }
 
 .user-reviews {
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: 2rem;
-  flex: 1;
   display: flex;
   flex-direction: column;
   align-items: center;
