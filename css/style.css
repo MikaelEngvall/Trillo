@@ -583,6 +583,9 @@ body {
 .cta {
   padding: 3.5rem 0;
   text-align: center;
+  grid-column: 1 / -1; /* Make sure it spans the full width */
+  text-align: center; /* Center align the text and button */
+  margin-top: 2rem; /* Add some margin at the top */
 }
 @media only screen and (max-width: 56.25em) {
   .cta {
